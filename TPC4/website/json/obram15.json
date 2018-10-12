@@ -1,0 +1,251 @@
+
+            {"id": "m15",
+            "titulo": "Caçadores do I",
+            "tipo": "Marcha de Desfile"
+            
+                , "compositor": "Amílcar Morais"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designacao": "All",
+                    
+                    "path": "CacadoresI-all.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Caixa",
+                    
+                    "path": "CacadoresI-caixa.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete Alto",
+                    
+                    "path": "CacadoresI-clarinete-alto.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete Baixo",
+                    
+                    "path": "CacadoresI-clarinete-baixo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "CacadoresI-clarinete1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "CacadoresI-clarinete2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "CacadoresI-clarinete3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Corneta",
+                    
+                        "voz": "I",
+                    
+                    "path": "CacadoresI-corneta1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Corneta",
+                    
+                        "voz": "II",
+                    
+                    "path": "CacadoresI-corneta2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Eufónio",
+                    
+                        "clave": "Sol",
+                    
+                    "path": "CacadoresI-eufonio-sol.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Eufónio",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "CacadoresI-eufonio.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fagote",
+                    
+                    "path": "CacadoresI-fagote.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flauta",
+                    
+                    "path": "CacadoresI-flauta.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fliscorne",
+                    
+                        "voz": "I",
+                    
+                    "path": "CacadoresI-fliscorne1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fliscorne",
+                    
+                        "voz": "II",
+                    
+                    "path": "CacadoresI-fliscorne2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Oboé",
+                    
+                    "path": "CacadoresI-oboe.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Alto",
+                    
+                    "path": "CacadoresI-saxA.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Barítono",
+                    
+                    "path": "CacadoresI-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Soprano",
+                    
+                    "path": "CacadoresI-saxS.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Tenor",
+                    
+                    "path": "CacadoresI-saxT.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                    "path": "CacadoresI-trombone.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "CacadoresI-trombone1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "CacadoresI-trombone2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "CacadoresI-trompa1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "CacadoresI-trompa2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "III",
+                    
+                    "path": "CacadoresI-trompa3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "IV",
+                    
+                    "path": "CacadoresI-trompa4.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "CacadoresI-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "CacadoresI-trompete2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "III",
+                    
+                    "path": "CacadoresI-trompete3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tuba",
+                    
+                        "clave": "Sol",
+                    
+                    "path": "CacadoresI-tuba-sol.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tuba",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "CacadoresI-tuba.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Xilofone",
+                    
+                    "path": "CacadoresI-xilofone.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

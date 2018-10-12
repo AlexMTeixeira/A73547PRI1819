@@ -1,0 +1,237 @@
+
+            {"id": "m20",
+            "titulo": "Cassiopeia",
+            "tipo": "Abertura/Concerto"
+            
+                , "compositor": "Carlos Marques"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designacao": "Clarinete Alto",
+                    
+                    "path": "Cassiopeia-clarinete-alto.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete Baixo",
+                    
+                    "path": "Cassiopeia-clarinete-baixo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "Cassiopeia-clarinete1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "Cassiopeia-clarinete2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "Cassiopeia-clarinete3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Contrabaixo",
+                    
+                    "path": "Cassiopeia-contrabaixo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Eufónio",
+                    
+                        "clave": "Sol",
+                    
+                    "path": "Cassiopeia-eufonio-sol.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Eufónio",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "Cassiopeia-eufonio.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fagote",
+                    
+                    "path": "Cassiopeia-fagote.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flauta",
+                    
+                    "path": "Cassiopeia-flauta.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flautim",
+                    
+                    "path": "Cassiopeia-flautim.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Maestro",
+                    
+                    "path": "Cassiopeia-maestro.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Percussão",
+                    
+                        "voz": "I",
+                    
+                    "path": "Cassiopeia-percussao1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Percussão",
+                    
+                        "voz": "II",
+                    
+                    "path": "Cassiopeia-percussao2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Percussão",
+                    
+                        "voz": "III",
+                    
+                    "path": "Cassiopeia-percussao3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Alto",
+                    
+                    "path": "Cassiopeia-saxA.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Barítono",
+                    
+                    "path": "Cassiopeia-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Soprano",
+                    
+                    "path": "Cassiopeia-saxS.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Tenor",
+                    
+                    "path": "Cassiopeia-saxT.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tímpanos",
+                    
+                    "path": "Cassiopeia-timpanos.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "Cassiopeia-trombone1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "Cassiopeia-trombone2-3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "III",
+                    
+                    "path": "Cassiopeia-trombone2-3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "Cassiopeia-trompa1-3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "III",
+                    
+                    "path": "Cassiopeia-trompa1-3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "Cassiopeia-trompa2-4.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "IV",
+                    
+                    "path": "Cassiopeia-trompa2-4.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "Cassiopeia-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "Cassiopeia-trompete2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "III",
+                    
+                    "path": "Cassiopeia-trompete3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tuba",
+                    
+                        "clave": "Sol",
+                    
+                    "path": "Cassiopeia-tuba-sol.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

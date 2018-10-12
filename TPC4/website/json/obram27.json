@@ -1,0 +1,227 @@
+
+            {"id": "m27",
+            "titulo": "Canções da Tradição",
+            "tipo": "Rapsódia"
+            
+                , "compositor": "Luís Cardoso"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designacao": "Maestro",
+                    
+                    "path": "CancoesTrad-maestro.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Oboé",
+                    
+                    "path": "CancoesTrad-oboe.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flautim",
+                    
+                    "path": "CancoesTrad-flautim.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flauta",
+                    
+                        "voz": "I",
+                    
+                    "path": "CancoesTrad-flauta1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flauta",
+                    
+                        "voz": "II",
+                    
+                    "path": "CancoesTrad-flauta2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "CancoesTrad-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "CancoesTrad-trompete2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "III",
+                    
+                    "path": "CancoesTrad-trompete3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "CancoesTrad-trompaF1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "CancoesTrad-trompaF2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "III",
+                    
+                    "path": "CancoesTrad-trompaF3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "CancoesTrad-trombone1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "CancoesTrad-trombone2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "III",
+                    
+                    "path": "CancoesTrad-trombone3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Eufónio",
+                    
+                    "path": "CancoesTrad-eufonio.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tuba",
+                    
+                    "path": "CancoesTrad-tuba.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Barítono",
+                    
+                    "path": "CancoesTrad-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Tenor",
+                    
+                    "path": "CancoesTrad-saxT.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Alto",
+                    
+                        "voz": "I",
+                    
+                    "path": "CancoesTrad-saxA1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Alto",
+                    
+                        "voz": "II",
+                    
+                    "path": "CancoesTrad-saxA2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "CancoesTrad-clari1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "CancoesTrad-clari2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "CancoesTrad-clari3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "IV",
+                    
+                    "path": "CancoesTrad-clari4.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Ferrinhos",
+                    
+                    "path": "CancoesTrad-ferrinhos.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Pandeireta",
+                    
+                    "path": "CancoesTrad-pandeireta.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tímpanos",
+                    
+                    "path": "CancoesTrad-timpanos.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Percussão",
+                    
+                    "path": "CancoesTrad-percussao.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Bateria",
+                    
+                    "path": "CancoesTrad-bateria.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Bombo",
+                    
+                    "path": "CancoesTrad-bombo.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

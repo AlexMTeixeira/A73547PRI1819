@@ -1,0 +1,261 @@
+
+            {"id": "m71",
+            "titulo": "Jerusalen",
+            "tipo": "Marcha de Procissão"
+            
+                , "compositor": "José Velez Garcia"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designacao": "Contrabaixo",
+                    
+                        "afinacao": "Dó",
+                    
+                    "path": "Jerusalen-baixo-do.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Bombo",
+                    
+                    "path": "Jerusalen-bombo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Caixa",
+                    
+                    "path": "Jerusalen-caixa.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete Baixo",
+                    
+                    "path": "Jerusalen-clarinete-baixo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "Solo",
+                    
+                    "path": "Jerusalen-clarinete-solo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "Jerusalen-clarinete1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "Jerusalen-clarinete2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "Jerusalen-clarinete3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Eufónio",
+                    
+                        "afinacao": "Dó",
+                    
+                        "voz": "I",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "Jerusalen-eufonio1-fa-do.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Eufónio",
+                    
+                        "afinacao": "Dó",
+                    
+                        "voz": "II",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "Jerusalen-eufonio2-fa-do.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fagote",
+                    
+                    "path": "Jerusalen-fagote.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flauta",
+                    
+                        "voz": "I",
+                    
+                    "path": "Jerusalen-flauta1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flauta",
+                    
+                        "voz": "II",
+                    
+                    "path": "Jerusalen-flauta2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fliscorne",
+                    
+                        "voz": "I",
+                    
+                    "path": "Jerusalen-fliscorne1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fliscorne",
+                    
+                        "voz": "II",
+                    
+                    "path": "Jerusalen-fliscorne2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Oboé",
+                    
+                    "path": "Jerusalen-oboe.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Requinta",
+                    
+                    "path": "Jerusalen-requinta.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Alto",
+                    
+                        "voz": "I",
+                    
+                    "path": "Jerusalen-saxA1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Alto",
+                    
+                        "voz": "II",
+                    
+                    "path": "Jerusalen-saxA2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Tenor",
+                    
+                        "voz": "I",
+                    
+                    "path": "Jerusalen-saxT1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Tenor",
+                    
+                        "voz": "II",
+                    
+                    "path": "Jerusalen-saxT2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Barítono",
+                    
+                    "path": "Jerusalen-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tímpanos",
+                    
+                    "path": "Jerusalen-timpanos.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "Jerusalen-trombone1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "Jerusalen-trombone2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "III",
+                    
+                    "path": "Jerusalen-trombone3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "Jerusalen-trompa1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "Jerusalen-trompa2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "III",
+                    
+                    "path": "Jerusalen-trompa3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "Jerusalen-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "Jerusalen-trompete2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "III",
+                    
+                    "path": "Jerusalen-trompete3.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

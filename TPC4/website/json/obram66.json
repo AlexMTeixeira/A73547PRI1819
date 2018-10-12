@@ -1,0 +1,327 @@
+
+            {"id": "m66",
+            "titulo": "La Storia",
+            "tipo": "Abertura/Concerto"
+            
+                , "compositor": "Jacob de Haan"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designacao": "Clarinete Baixo",
+                    
+                    "path": "LaStoria-clarinete-baixo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "LaStoria-clarinete1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "LaStoria-clarinete2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "LaStoria-clarinete3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Corneta",
+                    
+                    "path": "LaStoria-corneta.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Eufónio",
+                    
+                        "afinacao": "Dó",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "LaStoria-eufonio-fa-do.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Eufónio",
+                    
+                        "afinacao": "Sib",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "LaStoria-eufonio-fa.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Eufónio",
+                    
+                        "afinacao": "Sib",
+                    
+                        "clave": "Sol",
+                    
+                    "path": "LaStoria-eufonio-sol.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fagote",
+                    
+                        "voz": "I",
+                    
+                    "path": "LaStoria-fagote1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fagote",
+                    
+                        "voz": "II",
+                    
+                    "path": "LaStoria-fagote2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flauta",
+                    
+                        "voz": "I",
+                    
+                    "path": "LaStoria-flauta1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flauta",
+                    
+                        "voz": "II",
+                    
+                    "path": "LaStoria-flauta2-flautim.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flautim",
+                    
+                    "path": "LaStoria-flauta2-flautim.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fliscorne",
+                    
+                        "voz": "I",
+                    
+                    "path": "LaStoria-fliscorne1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fliscorne",
+                    
+                        "voz": "II",
+                    
+                    "path": "LaStoria-fliscorne2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fliscorne",
+                    
+                        "voz": "III",
+                    
+                    "path": "LaStoria-fliscorne3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Maestro",
+                    
+                    "path": "LaStoria-maestro.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Oboé",
+                    
+                        "voz": "I",
+                    
+                    "path": "LaStoria-oboe1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Oboé",
+                    
+                        "voz": "II",
+                    
+                    "path": "LaStoria-oboe2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Percussão",
+                    
+                        "voz": "I",
+                    
+                    "path": "LaStoria-percussao1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Percussão",
+                    
+                        "voz": "II",
+                    
+                    "path": "LaStoria-percussao2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Requinta",
+                    
+                    "path": "LaStoria-requinta.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Alto",
+                    
+                        "voz": "I",
+                    
+                    "path": "LaStoria-saxA1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Alto",
+                    
+                        "voz": "II",
+                    
+                    "path": "LaStoria-saxA2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Barítono",
+                    
+                    "path": "LaStoria-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Soprano",
+                    
+                    "path": "LaStoria-saxS.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Tenor",
+                    
+                    "path": "LaStoria-saxT.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tímpanos",
+                    
+                    "path": "LaStoria-timpanos.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "LaStoria-trombone1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "LaStoria-trombone2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "III",
+                    
+                    "path": "LaStoria-trombone3-baixo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone Baixo",
+                    
+                    "path": "LaStoria-trombone3-baixo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "LaStoria-trompa1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "LaStoria-trompa2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "III",
+                    
+                    "path": "LaStoria-trompa3-4.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "IV",
+                    
+                    "path": "LaStoria-trompa3-4.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "LaStoria-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "LaStoria-trompete2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "III",
+                    
+                    "path": "LaStoria-trompete3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tuba",
+                    
+                        "clave": "Sol",
+                    
+                    "path": "LaStoria-tuba.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tuba",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "LaStoria-tuba-fa.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

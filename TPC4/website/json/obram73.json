@@ -1,0 +1,297 @@
+
+            {"id": "m73",
+            "titulo": "A Portuguesa",
+            "tipo": "Marcha de Desfile"
+            
+                , "compositor": "Alfredo Keil"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designacao": "Clarinete Alto",
+                    
+                    "path": "HinoPortugal-clarinete-alto.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete Baixo",
+                    
+                    "path": "HinoPortugal-clarinete-baixo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "HinoPortugal-clarinete1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "HinoPortugal-clarinete2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "HinoPortugal-clarinete3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Cornetim",
+                    
+                        "voz": "I",
+                    
+                    "path": "HinoPortugal-cornetim1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Cornetim",
+                    
+                        "voz": "II",
+                    
+                    "path": "HinoPortugal-cornetim2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Eufónio",
+                    
+                        "voz": "I",
+                    
+                    "path": "HinoPortugal-eufonio1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Eufónio",
+                    
+                        "voz": "II",
+                    
+                    "path": "HinoPortugal-eufonio2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fagote",
+                    
+                        "voz": "I",
+                    
+                    "path": "HinoPortugal-fagote1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fagote",
+                    
+                        "voz": "II",
+                    
+                    "path": "HinoPortugal-fagote2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flauta",
+                    
+                        "voz": "I",
+                    
+                    "path": "HinoPortugal-flauta1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flauta",
+                    
+                        "voz": "II",
+                    
+                    "path": "HinoPortugal-flauta2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flautim",
+                    
+                    "path": "HinoPortugal-flautim.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fliscorne",
+                    
+                        "voz": "I",
+                    
+                    "path": "HinoPortugal-fliscorne1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fliscorne",
+                    
+                        "voz": "II",
+                    
+                    "path": "HinoPortugal-fliscorne2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Maestro",
+                    
+                    "path": "HinoPortugal-maestro.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Oboé",
+                    
+                        "voz": "I",
+                    
+                    "path": "HinoPortugal-oboe1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Oboé",
+                    
+                        "voz": "II",
+                    
+                    "path": "HinoPortugal-oboe2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Percussão",
+                    
+                    "path": "HinoPortugal-percussao.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Alto",
+                    
+                        "voz": "I",
+                    
+                    "path": "HinoPortugal-saxA1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Alto",
+                    
+                        "voz": "II",
+                    
+                    "path": "HinoPortugal-saxA2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Barítono",
+                    
+                    "path": "HinoPortugal-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Soprano",
+                    
+                    "path": "HinoPortugal-saxS.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Tenor",
+                    
+                    "path": "HinoPortugal-saxT.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tímpanos",
+                    
+                    "path": "HinoPortugal-timpanos.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "HinoPortugal-trombone1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "HinoPortugal-trombone2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "III",
+                    
+                    "path": "HinoPortugal-trombone3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa Tenor",
+                    
+                        "voz": "I",
+                    
+                    "path": "HinoPortugal-trompa-tenor.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa Tenor",
+                    
+                        "voz": "II",
+                    
+                    "path": "HinoPortugal-trompa-tenor2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "HinoPortugal-trompa1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "HinoPortugal-trompa2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "III",
+                    
+                    "path": "HinoPortugal-trompa3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "IV",
+                    
+                    "path": "HinoPortugal-trompa4.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "HinoPortugal-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "HinoPortugal-trompete2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tuba",
+                    
+                    "path": "HinoPortugal-tuba.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

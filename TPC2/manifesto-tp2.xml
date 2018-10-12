@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "manifesto.dtd">
+<manifesto>
+    <meta>
+        <id>PRI1819_MIEI_TPC2</id>
+        <título>Especificação de um DTD para um Processo de Negócio</título>
+        <subtítulo>Relatório relativo ao segundo trabalho de casa da cadeira de PRI</subtítulo>
+        <dinício>24 Setembro 2018</dinício>
+        <dfim>30 Setembro 2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </meta>
+    <equipe>
+        <elemento>
+            <id>a73547</id>
+            <nome>Alexandre Teixeira</nome>
+            <email>a73547@alunos.uminho.pt</email>
+            <website>https://www.facebook.com/alexandremorangoteixeira</website>
+        </elemento>
+    </equipe>
+    <resumo>
+        <para>O DTD, referente ao <i>processo de negócio</i>, foi dividido, incialmente, em quatro entidades: 
+            <b>meta</b>, <b>descritivo_classe</b>, <b>contexto_avaliação</b> e <b>descrisões_avaliação</b>.</para>
+        <para>A entidade <b>meta</b>, serviu para identificar o <b>código</b> da entidade, o <b>título</b>, 
+            o <b>estado</b> e de que classe é proviniente. Para o <b>código</b> foi necessario definir um atributo (<b>path</b>) 
+            com o objectivo de fornecer um caminho, pois a entidade, <b>classe_pai</b>, irá utilizar um 
+            <b>código</b> e um <b>título</b> para ser definida.</para>
+        <para>De seguida, foi definida a entidade <b>descritivo_classe</b>, que contêm <b>descrição</b>, 
+            <b>aplicação</b>, <b>exemplos_aplicação</b>, <b>exclusão</b> e <b>termos</b>. Em exepção da <b>descrição</b>,
+            todas as entidades, que definem <b>descritivo_classe</b>, são um conjunto de <i>0 ou mais <b>nota</b></i>, em que
+            <b>nota</b> é definida por <b>texto</b>, podendo conter referencias, <b>ref</b>, e <b>#PCDATA</b> 
+            com e sem <i>bold</i>, <b>b</b>.</para>
+        <para>No <b>contexto_avaliação</b>, as entidades, <b>tipo</b>, <b>transversal</b>, <b>donos</b>, 
+            <b>intervenção</b>, <b>relacionados</b> e <b>legislação</b>, são o que o definem. Para representar 
+            <b>donos</b>, foi necessario um conjunto de <b>entidade</b>, onde esta é definida por uma <b>sigla</b>,
+            capaz de relacionar um caminho, seguido pelo <b>nome</b>. As <b>intervenções</b> são um conjuto de 
+            <b>intervenção</b>, seguido dos seus <b>participantes</b>. Como, podem ou não existir <b>relacionados</b>,
+            esta entidade é criada a partir de uma <b>relação</b> com os seus devidos <b>processos</b>, onde estes têm
+            o caminho (<b>ref</b>) e <b>título</b>. Nesta linha de pensamento, a <b>legislação</b> é um conjunto de 
+            <b>lei</b>, onde este é identificado com uma <b>designação</b>, um <b>artigo</b> e um <b>sumário</b>, sendo que
+            o <b>artigo</b> têm como atributo o seu caminho.</para>
+        <para>Por ultimo, a representação de <b>descrisões_avaliação</b>, é definida por duas entidades. Na primeira, 
+            <b>prazo_conservação</b> é-lhe atribuido um <b>prazo</b>, uma <b>forma_contagem</b> e uma 
+            <b>justificação</b>, onde esta contêm pelo menos um <b>critério</b> seguido de <b>texto</b>. 
+            Por fim, o <b>destino_final</b> é complementado com um <b>destino</b>, capaz de identificar a sua finalidade,
+            e a sua respetiva <b>justificação</b>.
+        </para>
+    </resumo>
+    <resultados>
+        <resultado path="pn.dtd">DTD para o processo de negócio.</resultado>
+        <resultado path="manifesto-tp2.xml">XML com o conteudo do manifesto.</resultado>
+        <resultado path="manif2html.xsl">Schema de conversão XML para HTML.</resultado>
+        <resultado path="manifesto-tp2.html">Manifesto representado em HTML.</resultado>
+    </resultados>
+</manifesto>

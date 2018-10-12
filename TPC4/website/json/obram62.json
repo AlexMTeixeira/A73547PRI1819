@@ -1,0 +1,237 @@
+
+            {"id": "m62",
+            "titulo": "Immer Kleiner",
+            "tipo": "Ligeiro/Fantasia"
+            
+                , "compositor": "Adolf Schreiner"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "Solo",
+                    
+                    "path": "ImmerKleiner-clarinete-solo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "ImmerKleiner-clarinete1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "ImmerKleiner-clarinete2-3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "ImmerKleiner-clarinete2-3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "IIIa",
+                    
+                    "path": "ImmerKleiner-clarinete3a.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "IIIb",
+                    
+                    "path": "ImmerKleiner-clarinete3b.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Corneta",
+                    
+                        "voz": "II",
+                    
+                    "path": "ImmerKleiner-corneta2-3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Corneta",
+                    
+                        "voz": "III",
+                    
+                    "path": "ImmerKleiner-corneta2-3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Eufónio",
+                    
+                    "path": "ImmerKleiner-eufonio.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fagote",
+                    
+                        "voz": "I",
+                    
+                    "path": "ImmerKleiner-fagote1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fagote",
+                    
+                        "voz": "II",
+                    
+                    "path": "ImmerKleiner-fagote1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flauta",
+                    
+                        "voz": "I",
+                    
+                    "path": "ImmerKleiner-flauta1-2-flautim.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flauta",
+                    
+                        "voz": "II",
+                    
+                    "path": "ImmerKleiner-flauta1-2-flautim.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flautim",
+                    
+                    "path": "ImmerKleiner-flauta1-2-flautim.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Maestro",
+                    
+                    "path": "ImmerKleiner-maestro.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Oboé",
+                    
+                    "path": "ImmerKleiner-oboe.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Percussão",
+                    
+                    "path": "ImmerKleiner-percussao.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Requinta",
+                    
+                    "path": "ImmerKleiner-requinta.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Alto",
+                    
+                    "path": "ImmerKleiner-saxA.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Barítono",
+                    
+                    "path": "ImmerKleiner-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Soprano",
+                    
+                    "path": "ImmerKleiner-saxS.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Tenor",
+                    
+                    "path": "ImmerKleiner-saxT.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tímpanos",
+                    
+                    "path": "ImmerKleiner-timpanos.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "ImmerKleiner-trombone1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "ImmerKleiner-trombone1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "III",
+                    
+                    "path": "ImmerKleiner-trombone3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "ImmerKleiner-trompa1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "ImmerKleiner-trompa1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "III",
+                    
+                    "path": "ImmerKleiner-trompa3-4.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "IV",
+                    
+                    "path": "ImmerKleiner-trompa3-4.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tuba",
+                    
+                    "path": "ImmerKleiner-tuba.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

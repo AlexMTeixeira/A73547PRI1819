@@ -1,0 +1,102 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+                    table {
+                        width: 100%;
+                    }
+                    td {
+                        width: 50%;
+                    }
+                    .col {
+                        column-count: 2;
+                    }
+                </style></head>
+   <body>
+      <h1 align="center">Manifesto</h1>
+      <hr>
+      
+      <div class="col">
+         <b>Identificador: </b>PRI1819_MIEI_TPC2<br>
+         <b>Título: </b>Especificação de um DTD para um Processo de Negócio<br>
+         <b>Subtítulo: </b>Relatório relativo ao segundo trabalho de casa da cadeira de PRI<br>
+         <b>Data de Início: </b>24 Setembro 2018<br>
+         <b>Data de Conclusão: </b>30 Setembro 2018<br>
+         <b>Supervisor: </b><a href="http://www.di.uminho.pt/~jcr/">José Carlos Ramalho</a> : <a href="mailto:jcr@di.uminho.pt">✉</a><br>
+         
+      </div>
+      <hr>
+      
+      <hr>
+      <h3>Equipe:</h3>
+      <table>
+         <ul>
+            
+            <tr>
+               <td>
+                  <li><a href="https://www.facebook.com/alexandremorangoteixeira">Alexandre Teixeira</a> (a73547) : 
+                     <a href="mailto:a73547@alunos.uminho.pt">✉</a></li>
+               </td>
+            </tr>
+            
+         </ul>
+      </table>
+      <hr>
+      
+      <hr>
+      <h3>Resumo:</h3>
+      
+      <p>O DTD, referente ao <i>processo de negócio</i>, foi dividido, incialmente, em quatro entidades: 
+         <b>meta</b>, <b>descritivo_classe</b>, <b>contexto_avaliação</b> e <b>descrisões_avaliação</b>.
+      </p>
+      
+      <p>A entidade <b>meta</b>, serviu para identificar o <b>código</b> da entidade, o <b>título</b>, 
+         o <b>estado</b> e de que classe é proviniente. Para o <b>código</b> foi necessario definir um atributo (<b>path</b>) 
+         com o objectivo de fornecer um caminho, pois a entidade, <b>classe_pai</b>, irá utilizar um 
+         <b>código</b> e um <b>título</b> para ser definida.
+      </p>
+      
+      <p>De seguida, foi definida a entidade <b>descritivo_classe</b>, que contêm <b>descrição</b>, 
+         <b>aplicação</b>, <b>exemplos_aplicação</b>, <b>exclusão</b> e <b>termos</b>. Em exepção da <b>descrição</b>,
+         todas as entidades, que definem <b>descritivo_classe</b>, são um conjunto de <i>0 ou mais <b>nota</b></i>, em que
+         <b>nota</b> é definida por <b>texto</b>, podendo conter referencias, <b>ref</b>, e <b>#PCDATA</b> 
+         com e sem <i>bold</i>, <b>b</b>.
+      </p>
+      
+      <p>No <b>contexto_avaliação</b>, as entidades, <b>tipo</b>, <b>transversal</b>, <b>donos</b>, 
+         <b>intervenção</b>, <b>relacionados</b> e <b>legislação</b>, são o que o definem. Para representar 
+         <b>donos</b>, foi necessario um conjunto de <b>entidade</b>, onde esta é definida por uma <b>sigla</b>,
+         capaz de relacionar um caminho, seguido pelo <b>nome</b>. As <b>intervenções</b> são um conjuto de 
+         <b>intervenção</b>, seguido dos seus <b>participantes</b>. Como, podem ou não existir <b>relacionados</b>,
+         esta entidade é criada a partir de uma <b>relação</b> com os seus devidos <b>processos</b>, onde estes têm
+         o caminho (<b>ref</b>) e <b>título</b>. Nesta linha de pensamento, a <b>legislação</b> é um conjunto de 
+         <b>lei</b>, onde este é identificado com uma <b>designação</b>, um <b>artigo</b> e um <b>sumário</b>, sendo que
+         o <b>artigo</b> têm como atributo o seu caminho.
+      </p>
+      
+      <p>Por ultimo, a representação de <b>descrisões_avaliação</b>, é definida por duas entidades. Na primeira, 
+         <b>prazo_conservação</b> é-lhe atribuido um <b>prazo</b>, uma <b>forma_contagem</b> e uma 
+         <b>justificação</b>, onde esta contêm pelo menos um <b>critério</b> seguido de <b>texto</b>. 
+         Por fim, o <b>destino_final</b> é complementado com um <b>destino</b>, capaz de identificar a sua finalidade,
+         e a sua respetiva <b>justificação</b>.
+         
+      </p>
+      
+      <hr>
+      
+      <hr>
+      <h3>Resultados:</h3>
+      <ul>
+         
+         <li><a href="pn.dtd">DTD para o processo de negócio.</a></li>
+         
+         <li><a href="manifesto-tp2.xml">XML com o conteudo do manifesto.</a></li>
+         
+         <li><a href="manif2html.xsl">Schema de conversão XML para HTML.</a></li>
+         
+         <li><a href="manifesto-tp2.html">Manifesto representado em HTML.</a></li>
+         
+      </ul>
+      <hr>
+      
+   </body>
+</html>

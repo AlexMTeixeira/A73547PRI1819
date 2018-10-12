@@ -1,0 +1,335 @@
+
+            {"id": "m68",
+            "titulo": "Macarena",
+            "tipo": "Ligeiro/Fantasia"
+            
+                , "compositor": "Bernardino Bautista Monteverde"
+            
+                , "arranjo": "Naohiro Iwai"
+            
+                , "instrumentos": [
+                
+                    {
+                    "designacao": "Bateria",
+                    
+                    "path": "Macarena-bateria.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Bongo",
+                    
+                    "path": "Macarena-bongo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Cabaça",
+                    
+                    "path": "Macarena-cabaca-pratos.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Pratos",
+                    
+                    "path": "Macarena-cabaca-pratos.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete Alto",
+                    
+                    "path": "Macarena-clarinete-alto.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete Baixo",
+                    
+                    "path": "Macarena-clarinete-baixo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "I",
+                    
+                    "path": "Macarena-clarinete1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "II",
+                    
+                    "path": "Macarena-clarinete2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Clarinete",
+                    
+                        "voz": "III",
+                    
+                    "path": "Macarena-clarinete3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Congas",
+                    
+                    "path": "Macarena-congas.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Eufónio",
+                    
+                        "voz": "I",
+                    
+                    "path": "Macarena-eufonio1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Eufónio",
+                    
+                        "voz": "II",
+                    
+                    "path": "Macarena-eufonio1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Fagote",
+                    
+                    "path": "Macarena-fagote.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flauta",
+                    
+                        "voz": "I",
+                    
+                    "path": "Macarena-flauta1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flauta",
+                    
+                        "voz": "II",
+                    
+                    "path": "Macarena-flauta1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Flautim",
+                    
+                    "path": "Macarena-flautim.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Guiro",
+                    
+                    "path": "Macarena-guiro-pandeireta-pratos.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Pandeireta",
+                    
+                    "path": "Macarena-guiro-pandeireta-pratos.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Pratos",
+                    
+                        "voz": "II",
+                    
+                    "path": "Macarena-guiro-pandeireta-pratos.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Maestro",
+                    
+                    "path": "Macarena-maestro.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Oboé",
+                    
+                    "path": "Macarena-oboe.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Requinta",
+                    
+                    "path": "Macarena-requinta.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Alto",
+                    
+                        "voz": "I",
+                    
+                    "path": "Macarena-saxA1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Alto",
+                    
+                        "voz": "II",
+                    
+                    "path": "Macarena-saxA2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Barítono",
+                    
+                    "path": "Macarena-saxB.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Sax Tenor",
+                    
+                    "path": "Macarena-saxT.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tímpanos",
+                    
+                    "path": "Macarena-timpanos-badalo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Badalo",
+                    
+                    "path": "Macarena-timpanos-badalo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone Baixo",
+                    
+                    "path": "Macarena-trombone-baixo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "I",
+                    
+                    "path": "Macarena-trombone1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trombone",
+                    
+                        "voz": "II",
+                    
+                    "path": "Macarena-trombone2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "I",
+                    
+                    "path": "Macarena-trompa1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "II",
+                    
+                    "path": "Macarena-trompa1-2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "III",
+                    
+                    "path": "Macarena-trompa3-4.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompa",
+                    
+                        "voz": "IV",
+                    
+                    "path": "Macarena-trompa3-4.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "Solo",
+                    
+                    "path": "Macarena-trompete-solo.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "I",
+                    
+                    "path": "Macarena-trompete1.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "II",
+                    
+                    "path": "Macarena-trompete2.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Trompete",
+                    
+                        "voz": "III",
+                    
+                    "path": "Macarena-trompete3.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tuba",
+                    
+                        "afinacao": "Dó",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "Macarena-tuba-fa-do.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tuba",
+                    
+                        "afinacao": "Fá",
+                    
+                        "clave": "Fá",
+                    
+                    "path": "Macarena-tuba-fa-fa.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tuba",
+                    
+                        "afinacao": "Mib",
+                    
+                        "clave": "Sol",
+                    
+                    "path": "Macarena-tuba-sol-mib.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Tuba",
+                    
+                        "afinacao": "Sib",
+                    
+                        "clave": "Sol",
+                    
+                    "path": "Macarena-tuba-sol-sib.pdf"
+                    }
+                    ,
+                    {
+                    "designacao": "Xilofone",
+                    
+                    "path": "Macarena-xilofone.pdf"
+                    }
+                    
+                ]
+            
+            }
+        

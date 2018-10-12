@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT processo_negócio (meta,descritivo_classe,contexto_avaliação,decrisões_avaliação) >
+
+<!ELEMENT meta (código,título,estado,classe_pai) >
+<!ELEMENT código (#PCDATA) >
+
+<!ATTLIST código
+            path CDATA #IMPLIED >
+<!ELEMENT título (#PCDATA) >
+<!ELEMENT estado (#PCDATA) >
+<!ELEMENT classe_pai (código,título) >
+
+<!ELEMENT descritivo_classe (descrição,aplicação,exemplos_aplicação,exclusão,termos) >
+
+<!ELEMENT descrição (texto) >
+
+<!ELEMENT texto (#PCDATA|b|ref)* >
+<!ELEMENT b (#PCDATA) >
+<!ELEMENT ref (#PCDATA) >
+<!ATTLIST ref
+            path CDATA #IMPLIED >
+            
+<!ELEMENT aplicação (nota*) >
+<!ELEMENT exemplos_aplicação (nota*) >
+<!ELEMENT exclusão (nota*) >
+<!ELEMENT termos (nota*) >
+<!ELEMENT nota (texto) >
+
+<!ELEMENT contexto_avaliação (tipo,transversal,donos,intervenções,relacionados,legislação) >
+<!ELEMENT tipo (#PCDATA) >
+<!ELEMENT transversal (#PCDATA) >
+<!ELEMENT donos (entidade+) >
+<!ELEMENT entidade (sigla,nome) >
+<!ELEMENT sigla (#PCDATA) >
+<!ATTLIST sigla
+            path CDATA #REQUIRED >
+<!ELEMENT nome (#PCDATA) >
+
+<!ELEMENT intervenções (intervenção,participantes)+ >
+<!ELEMENT intervenção (#PCDATA) >
+<!ELEMENT participantes (entidade+) >
+
+<!ELEMENT relacionados (relação,processos)* >
+<!ELEMENT relação (#PCDATA) >
+<!ELEMENT processos (ref,título)+ >
+
+<!ELEMENT legislação (lei)+ >
+<!ELEMENT lei (designação,artigo,sumário) >
+<!ELEMENT designação (#PCDATA) >
+<!ELEMENT artigo (#PCDATA) >
+<!ATTLIST artigo
+            path CDATA #REQUIRED >
+<!ELEMENT sumário (#PCDATA) >
+
+<!ELEMENT decrisões_avaliação (prazo_conservação,destino_final) >
+<!ELEMENT prazo_conservação (prazo,forma_contagem,justificação) >
+<!ELEMENT prazo (#PCDATA) >
+<!ELEMENT forma_contagem (#PCDATA) >
+<!ELEMENT justificação (critério,texto)+ >
+<!ELEMENT critério (#PCDATA) >
+
+<!ELEMENT destino_final (destino,justificação) >
+<!ELEMENT destino (#PCDATA) >

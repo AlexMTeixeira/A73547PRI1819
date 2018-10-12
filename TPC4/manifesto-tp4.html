@@ -1,0 +1,92 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+                    table {
+                        width: 100%;
+                    }
+                    td {
+                        width: 50%;
+                    }
+                    .col {
+                        column-count: 2;
+                    }
+                </style></head>
+   <body>
+      <h1 align="center">Manifesto</h1>
+      <hr>
+      
+      <div class="col">
+         <b>Identificador: </b>PRI1819_MIEI_TPC2<br>
+         <b>Título: </b>Servidor em JavaScript e Website de Arquivo Musical Digital<br>
+         <b>Subtítulo: </b>Relatório relativo ao quarto trabalho de casa da cadeira de PRI<br>
+         <b>Data de Início: </b>11 Outubro 2018<br>
+         <b>Data de Conclusão: </b>12 Outubro 2018<br>
+         <b>Supervisor: </b><a href="http://www.di.uminho.pt/~jcr/">José Carlos Ramalho</a> : <a href="mailto:jcr@di.uminho.pt">✉</a><br>
+         
+      </div>
+      <hr>
+      
+      <hr>
+      <h3>Equipe:</h3>
+      <table>
+         <ul>
+            
+            <tr>
+               <td>
+                  <li><a href="https://www.facebook.com/alexandremorangoteixeira">Alexandre Teixeira</a> (a73547) : 
+                     <a href="mailto:a73547@alunos.uminho.pt">✉</a></li>
+               </td>
+            </tr>
+            
+         </ul>
+      </table>
+      <hr>
+      
+      <hr>
+      <h3>Resumo:</h3>
+      
+      <p>
+         Para a criação do <i>servidor</i>, foi necessário incluir três pacotes, 
+         <b>http</b>, <b>url</b> e <b>fs</b>. Sendo que, o pacote <b>http</b>
+         serviu para criar o <b>servidor</b> e coloca-lo á escuta numa determinada porta.
+         O pacote <b>url</b> teve como objetivo tratar e analisar o url passado pelo <i>cliente</i>.
+         Por fim, o pacote <b>fs</b> <i>(File System)</i> veio responder ao cliente, com os ficheiros
+         do <b>Arquivo Musical Digital</b>, criados na aula. 
+         
+      </p>
+      
+      <p>
+         Como forma de tratar o <b>url</b>, foi feita um destinção no <b>pathname</b>. Para isso, 
+         sempre que o <b>pathname</b> for <i>"/manifesto"</i>, o <i>File System</i> é responsavel por transmitir
+         o ficheiro <b>manifesto-tp4.html</b>. Caso o <b>pathname</b> seja <i>"/obra"</i>,
+         vão existir dois tipos de resposta.
+         
+      </p>
+      
+      <p>
+         No caso, <b>pathname</b> igual a <i>"/obra"</i>, verifica-se se existe uma <b>query</b>
+         em que o seu codigo é <b>id</b>. Caso se verifique, o <b>fs</b> irá responder com o <b>html</b>
+         correspondente à obra com o respetivo <b>id</b>. Caso contrário, o <b>fs</b> irá responder com o
+         <b>index</b> do <b>Arquivo Musical Digital</b>.
+         
+      </p>
+      
+      <hr>
+      
+      <hr>
+      <h3>Resultados:</h3>
+      <ul>
+         
+         <li><a href="website">Pasta que contêm o website</a></li>
+         
+         <li><a href="manifesto-tp4.xml">XML com o conteudo do manifesto.</a></li>
+         
+         <li><a href="amd-web.xsl">Schema de conversão XML para HTML.</a></li>
+         
+         <li><a href="server.js">Servidor em JavaScript.</a></li>
+         
+      </ul>
+      <hr>
+      
+   </body>
+</html>
