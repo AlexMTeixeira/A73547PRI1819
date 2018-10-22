@@ -1,0 +1,17 @@
+extends layout.pug
+
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3 Arquivo Musical Digital
+            .w3-container
+                h3 Índice
+                hr
+                ul.w3-ul.w3-card-4
+                    each i in files
+                        li.w3-bar-item
+                            b
+                                a(href='http://localhost:6001/obra/'+i._id)= i.titulo
+            footer.w3-container.w3-teal
+                address Geardo por ArquivoMusicalDigital by AT

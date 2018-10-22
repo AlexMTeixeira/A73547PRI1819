@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "../../../Manifesto/manifesto.dtd">
+<manifesto>
+    <meta>
+        <id>PRI1819_MIEI_TPC5</id>
+        <título>Servidor em JavaScript como respota ao Arquivo Musical Digital</título>
+        <subtítulo>Relatório relativo ao quinto trabalho de casa da cadeira de PRI</subtítulo>
+        <dinício>19 Outubro 2018</dinício>
+        <dfim>22 Outubro 2018</dfim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www.di.uminho.pt/~jcr/</website>
+        </supervisor>
+    </meta>
+    <equipe>
+        <elemento>
+            <id>a73547</id>
+            <nome>Alexandre Teixeira</nome>
+            <email>a73547@alunos.uminho.pt</email>
+            <website>https://www.facebook.com/alexandremorangoteixeira</website>
+        </elemento>
+    </equipe>
+    <resumo>
+        <para>
+            Inicialmente, foi necessário criar um <i>script</i> para transformar os ficheiros musicais <b>".json"<b> 
+            num ficheiro <b>"index.json"</b>, que contem a concatenação dos vários ficheiros das obras musicais. 
+            Para isto, foi necessário implementar o modulo <b>fs</b>
+        </para>
+    </resumo>
+    <resultados>
+        <resultado path="json">Pasta que contêm os ficheiros JSON remetentes ao Arquivo Musical Digital.</resultado>
+        <resultado path="manifesto/manigesto-tp5.xml">XML com o conteudo do manifesto.</resultado>
+        <resultado path="views">Pasta que contêm as Views em PUG para converção de ficheiros em HTML.</resultado>
+        <resultado path="node_modules">Pasta que contem os modules dos packages instalados.</resultado>
+        <resultado path="style/w3.css">Ficheiro w3.css que contem o estilo.</resultado>
+        <resultado path="server.js">Servidor em JavaScript.</resultado>
+        <resultado path="indexMaker.js">Script para criação do índice em JavaScript.</resultado>
+        <resultado path="package.json">JSON com a expecificação do servidor.</resultado>
+        <resultado path="server.js">Servidor em JavaScript.</resultado>
+        <resultado path="https://github.com/anguinho/A73547PRI1819">Repositório GIT para os trabalhos de Casa</resultado>
+    </resultados>
+</manifesto>

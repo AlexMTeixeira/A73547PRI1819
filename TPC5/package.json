@@ -1,0 +1,14 @@
+{
+  "name": "tpc5",
+  "version": "1.0.0",
+  "description": "TPC número 5, serve o dataset do arquivo musical digital em JSON",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Alexandre Teixeira",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^2.0.3"
+  }
+}
