@@ -1,0 +1,102 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+                    table {
+                        width: 100%;
+                    }
+                    td {
+                        width: 50%;
+                    }
+                    .col {
+                        column-count: 2;
+                    }
+                </style></head>
+   <body>
+      <h1 align="center">Manifesto</h1>
+      <hr>
+      
+      <div class="col">
+         <b>Identificador: </b>PRI1819_MIEI_TPC5<br>
+         <b>Título: </b>Servidor em JavaScript como respota ao Arquivo Musical Digital<br>
+         <b>Subtítulo: </b>Relatório relativo ao quinto trabalho de casa da cadeira de PRI<br>
+         <b>Data de Início: </b>19 Outubro 2018<br>
+         <b>Data de Conclusão: </b>22 Outubro 2018<br>
+         <b>Supervisor: </b><a href="http://www.di.uminho.pt/~jcr/">José Carlos Ramalho</a> : <a href="mailto:jcr@di.uminho.pt">✉</a><br>
+         
+      </div>
+      <hr>
+      
+      <hr>
+      <h3>Equipe:</h3>
+      <table>
+         <ul>
+            
+            <tr>
+               <td>
+                  <li><a href="https://www.facebook.com/alexandremorangoteixeira">Alexandre Teixeira</a> (a73547) : 
+                     <a href="mailto:a73547@alunos.uminho.pt">✉</a></li>
+               </td>
+            </tr>
+            
+         </ul>
+      </table>
+      <hr>
+      
+      <hr>
+      <h3>Resumo:</h3>
+      
+      <p>
+         Inicialmente, foi necessário criar um <i>script</i> para transformar os ficheiros musicais <b>".json"</b> 
+         num ficheiro <b>"index.json"</b>, que contem a concatenação dos vários ficheiros das obras musicais. 
+         Para isto, foi necessário implementar o modulo <b>fs</b> para ler a diretoria e de seguida utilizar a 
+         função <i>foreach()</i> para iterar sobre a diretoria, e com isto, analisár ficheiro a ficheiro. Esta 
+         análise verifica se os ficheiros são do tipo <b>/m[0-9+\.json/</b>, alêm disso verifica se é o primeiro 
+         e ultimo caso, para uma correta concatenação.
+         
+      </p>
+      
+      <p>
+         Seguidamente, foi criado um <i>servidor</i>, capaz de identificar, a partir do <b>pathname</b>, qual modulo 
+         em <b>PUG</b> que deve implementar. Isto é, se o <b>pathname</b> for igual a <b>index</b>, executa o <i>render</i>
+         do ficheiro <i>index.pug</i> com o <b>parse</b> do ficheiro <b>index.json</b>. E quando, <b>pathname</b> é igual a 
+         <b>obra/mXX</b>, é executado o <i>render</i> do ficheiro <i>obra.pug</i> com o <b>parse</b> da obra correspondente.
+         
+      </p>
+      
+      <p>
+         Finalmente, foi necessário alterar a porta de <b>listen()</b>, de 6000 para 6001, porque o servidor fica 
+         inresponsivo em todos <b>URLs</b> fornecidos.
+         
+      </p>
+      
+      <hr>
+      
+      <hr>
+      <h3>Resultados:</h3>
+      <ul>
+         
+         <li><a href="../json">Pasta que contêm os ficheiros JSON remetentes ao Arquivo Musical Digital.</a></li>
+         
+         <li><a href="manifesto-tp5.xml">XML com o conteudo do manifesto.</a></li>
+         
+         <li><a href="../views">Pasta que contêm as Views em PUG para converção de ficheiros em HTML.</a></li>
+         
+         <li><a href="../node_modules">Pasta que contem os modules dos packages instalados.</a></li>
+         
+         <li><a href="../style/w3.css">Ficheiro w3.css que contem o estilo.</a></li>
+         
+         <li><a href="../server.js">Servidor em JavaScript.</a></li>
+         
+         <li><a href="../indexMaker.js">Script para criação do índice em JavaScript.</a></li>
+         
+         <li><a href="../package.json">JSON com a expecificação do servidor.</a></li>
+         
+         <li><a href="../server.js">Servidor em JavaScript.</a></li>
+         
+         <li><a href="https://github.com/anguinho/A73547PRI1819">Repositório GIT para os trabalhos de Casa</a></li>
+         
+      </ul>
+      <hr>
+      
+   </body>
+</html>

@@ -23,21 +23,34 @@
     </equipe>
     <resumo>
         <para>
-            Inicialmente, foi necessário criar um <i>script</i> para transformar os ficheiros musicais <b>".json"<b> 
+            Inicialmente, foi necessário criar um <i>script</i> para transformar os ficheiros musicais <b>".json"</b> 
             num ficheiro <b>"index.json"</b>, que contem a concatenação dos vários ficheiros das obras musicais. 
-            Para isto, foi necessário implementar o modulo <b>fs</b>
+            Para isto, foi necessário implementar o modulo <b>fs</b> para ler a diretoria e de seguida utilizar a 
+            função <i>foreach()</i> para iterar sobre a diretoria, e com isto, analisár ficheiro a ficheiro. Esta 
+            análise verifica se os ficheiros são do tipo <b>/m[0-9+\.json/</b>, alêm disso verifica se é o primeiro 
+            e ultimo caso, para uma correta concatenação.
+        </para>
+        <para>
+            Seguidamente, foi criado um <i>servidor</i>, capaz de identificar, a partir do <b>pathname</b>, qual modulo 
+            em <b>PUG</b> que deve implementar. Isto é, se o <b>pathname</b> for igual a <b>index</b>, executa o <i>render</i>
+            do ficheiro <i>index.pug</i> com o <b>parse</b> do ficheiro <b>index.json</b>. E quando, <b>pathname</b> é igual a 
+            <b>obra/mXX</b>, é executado o <i>render</i> do ficheiro <i>obra.pug</i> com o <b>parse</b> da obra correspondente.
+        </para>
+        <para>
+            Finalmente, foi necessário alterar a porta de <b>listen()</b>, de 6000 para 6001, porque o servidor fica 
+            inresponsivo em todos <b>URLs</b> fornecidos.
         </para>
     </resumo>
     <resultados>
-        <resultado path="json">Pasta que contêm os ficheiros JSON remetentes ao Arquivo Musical Digital.</resultado>
-        <resultado path="manifesto/manigesto-tp5.xml">XML com o conteudo do manifesto.</resultado>
-        <resultado path="views">Pasta que contêm as Views em PUG para converção de ficheiros em HTML.</resultado>
-        <resultado path="node_modules">Pasta que contem os modules dos packages instalados.</resultado>
-        <resultado path="style/w3.css">Ficheiro w3.css que contem o estilo.</resultado>
-        <resultado path="server.js">Servidor em JavaScript.</resultado>
-        <resultado path="indexMaker.js">Script para criação do índice em JavaScript.</resultado>
-        <resultado path="package.json">JSON com a expecificação do servidor.</resultado>
-        <resultado path="server.js">Servidor em JavaScript.</resultado>
+        <resultado path="../json">Pasta que contêm os ficheiros JSON remetentes ao Arquivo Musical Digital.</resultado>
+        <resultado path="manifesto-tp5.xml">XML com o conteudo do manifesto.</resultado>
+        <resultado path="../views">Pasta que contêm as Views em PUG para converção de ficheiros em HTML.</resultado>
+        <resultado path="../node_modules">Pasta que contem os modules dos packages instalados.</resultado>
+        <resultado path="../style/w3.css">Ficheiro w3.css que contem o estilo.</resultado>
+        <resultado path="../server.js">Servidor em JavaScript.</resultado>
+        <resultado path="../indexMaker.js">Script para criação do índice em JavaScript.</resultado>
+        <resultado path="../package.json">JSON com a expecificação do servidor.</resultado>
+        <resultado path="../server.js">Servidor em JavaScript.</resultado>
         <resultado path="https://github.com/anguinho/A73547PRI1819">Repositório GIT para os trabalhos de Casa</resultado>
     </resultados>
 </manifesto>
