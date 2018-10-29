@@ -2,11 +2,11 @@
 <!DOCTYPE manifesto SYSTEM "../../../Manifesto/manifesto.dtd">
 <manifesto>
     <meta>
-        <id>PRI1819_MIEI_TPC5</id>
+        <id>PRI1819_MIEI_TPC6</id>
         <título>Servidor em JavaScript como respota ao Arquivo Musical Digital</título>
         <subtítulo>Relatório relativo ao quinto trabalho de casa da cadeira de PRI</subtítulo>
         <dinício>23 Outubro 2018</dinício>
-        <dfim>25 Outubro 2018</dfim>
+        <dfim>29 Outubro 2018</dfim>
         <supervisor>
             <nome>José Carlos Ramalho</nome>
             <email>jcr@di.uminho.pt</email>
@@ -23,7 +23,19 @@
     </equipe>
     <resumo>
         <para>
-           
+            Para a conseptualização do trabalho de casa, foi utilizado,
+            como template, o formato para aplicações web criado na aula numero 5.
+        </para>
+        <para>
+            De forma a resolver o desafio, de criar um painel de escolhas, entre mestrado e doutoramento,
+            foi utilizado a opção <b>radio</b>, com os aspetos da <i>stylesheet</i>
+            de <b>w3</b>.
+        </para>
+        <para>
+            Quando o <b>pathname</b> é '/', foi criado uma pagina, utilizado uma 
+            template em <b>pug</b>, que contém apenas uma descrição da aplicação e dois
+            botões, <i>Registo</i> e <i>Consulta</i>. Alem disso foi inserido em todos os
+            <i>footer</i> um botão para voltar à pagina inicial.
         </para>
     </resumo>
     <resultados>
