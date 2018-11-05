@@ -3,8 +3,8 @@
 <manifesto>
     <meta>
         <id>PRI1819_MIEI_TPC7</id>
-        <título>Servidor em JavaScript como respota ao Arquivo Musical Digital</título>
-        <subtítulo>Relatório relativo ao quinto trabalho de casa da cadeira de PRI</subtítulo>
+        <título>Aplicação de Submição de Ficheiros</título>
+        <subtítulo>Relatório relativo ao sétimo trabalho de casa da cadeira de PRI</subtítulo>
         <dinício>30 Outubro 2018</dinício>
         <dfim>5 Novembro 2018</dfim>
         <supervisor>
@@ -23,7 +23,14 @@
     </equipe>
     <resumo>
         <para>
-
+            Inicialmente foi necessário implementar um servidor, capaz de responder a dois métodos, <b>Post</b> e <b>Get</b>.
+            Para o método <b>Get</b>, foi necessário verificar os <b>pathnames</b>, <i>/</i>, <i>/ficheiros</i> e <i>/data/*</i>. Para o 
+            <b>Post</b> foi apenas implementada uma resposta quando o <b>pathname</b> é igual a <i>/processaForm</i>.
+        </para>
+        <para>
+            No link para os ficheiros ja guardados, foi necessário definir uma resposta, capaz de analisar o tipo de ficheiro e 
+            escrever o seu respetivo <i>Header</i>. Para isso, são utilizadas expressões regulares, juntamente com a função <i>test</i>
+            para identificar corretamente o tipo de ficheiro.
         </para>
     </resumo>
     <resultados>

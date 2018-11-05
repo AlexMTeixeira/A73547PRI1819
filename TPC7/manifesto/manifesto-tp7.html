@@ -1,0 +1,78 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+                    table {
+                        width: 100%;
+                    }
+                    td {
+                        width: 50%;
+                    }
+                    .col {
+                        column-count: 2;
+                    }
+                </style></head>
+   <body>
+      <h1 align="center">Manifesto</h1>
+      <hr>
+      
+      <div class="col">
+         <b>Identificador: </b>PRI1819_MIEI_TPC7<br>
+         <b>Título: </b>Aplicação de Submição de Ficheiros<br>
+         <b>Subtítulo: </b>Relatório relativo ao sétimo trabalho de casa da cadeira de PRI<br>
+         <b>Data de Início: </b>30 Outubro 2018<br>
+         <b>Data de Conclusão: </b>5 Novembro 2018<br>
+         <b>Supervisor: </b><a href="http://www.di.uminho.pt/~jcr/">José Carlos Ramalho</a> : <a href="mailto:jcr@di.uminho.pt">✉</a><br>
+         
+      </div>
+      <hr>
+      
+      <hr>
+      <h3>Equipe:</h3>
+      <table>
+         <ul>
+            
+            <tr>
+               <td>
+                  <li><a href="https://www.facebook.com/alexandremorangoteixeira">Alexandre Teixeira</a> (a73547) : 
+                     <a href="mailto:a73547@alunos.uminho.pt">✉</a></li>
+               </td>
+            </tr>
+            
+         </ul>
+      </table>
+      <hr>
+      
+      <hr>
+      <h3>Resumo:</h3>
+      
+      <p>
+         Inicialmente foi necessário implementar um servidor, capaz de responder a dois métodos,
+         <b>Post</b> e <b>Get</b>.
+         Para o método <b>Get</b>, foi necessário verificar os <b>pathnames</b>, <i>/</i>, <i>/ficheiros</i> e <i>/data/*</i>. Para o 
+         <b>Post</b> foi apenas implementada uma resposta quando o <b>pathname</b> é igual a <i>/processaForm</i>.
+         
+      </p>
+      
+      <p>
+         No link para os ficheiros ja guardados, foi necessário definir uma resposta, capaz
+         de analisar o tipo de ficheiro e 
+         escrever o seu respetivo <i>Header</i>. Para isso, são utilizadas expressões regulares, juntamente com a função <i>test</i>
+         para identificar corretamente o tipo de ficheiro.
+         
+      </p>
+      
+      <hr>
+      
+      <hr>
+      <h3>Resultados:</h3>
+      <ul>
+         
+         <li><a href="manifesto-tp7.xml">XML com o conteudo do manifesto.</a></li>
+         
+         <li><a href="https://github.com/anguinho/A73547PRI1819">Repositório GIT para os trabalhos de Casa</a></li>
+         
+      </ul>
+      <hr>
+      
+   </body>
+</html>
