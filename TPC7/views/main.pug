@@ -2,31 +2,32 @@ extends layout
 block content
     .w3-container
         .w3-card-4
-            header.w3-container.w3-teal
+            header.w3-container.w3-light-gray
                 h3 Upload de Ficheiros
             br
             .w3-container
                 form.w3-container(action='/processaForm', method='POST', enctype='multipart/form-data')
-                    label.w3-text-teal
+                    label.w3-text-gray
                         b Ficheiro
                     input.w3-input.w3-border.w3-light-grey(type='file', name='ficheiro')
-                    label.w3-text-teal
+                    label.w3-text-gray
                         b Descrição
                     input.w3-input.w3-border.w3-light-grey(type='text', name='desc')
-                    input.w3-btn.w3-blue-grey(type='submit', value='Enviar')
+                    br
+                    input.w3-btn.w3-light-gray(type='submit', value='Enviar')
             .w3-container
-                h5.w3-text-teal.w3-center
+                h5.w3-text-gray.w3-center
                     b Ficheiros Enviados
                 table.w3-table-all
-                    tr.w3-text-teal
+                    tr.w3-text-gray
                         th Ficheiro
                         th Descição
                     each i in l
                         tr
                             td
-                                a(href=i.path)= i.file
+                                a(href='/data/'+i.file)= i.file
                             td= i.desc
             br
-            footer.w3-container.w3-teal
-                address Gerado por formApp
+            footer.w3-container.w3-light-gray
+                address Gerado por FilesSubmit
                 
