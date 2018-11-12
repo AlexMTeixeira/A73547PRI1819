@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  .w3-container
+    .w3-card-4
+      header.w3-container.w3-light-grey
+        h3.w3-text-grey
+          b Upload de Ficheiros
+      br
+      .w3-container
+        form.w3-container(id="myUploadForm")
+          fieldset
+            label.w3-text-grey
+              b Ficheiro
+            input.w3-input.w3-border.w3-light-grey(type='file', name='file', id='file')
+            label.w3-text-grey
+              b Descrição
+            input.w3-input.w3-border.w3-light-grey(type='text', id='desc')
+            br
+            button.w3-button.w3-round-large.w3-light-grey.w3-text-grey(id='add')
+              b Enviar
+            button.w3-button.w3-round-large.w3-light-grey.w3-text-grey(id='clean')
+              b Limpar
+        .w3-container
+          h3.w3-center.w3-text-grey
+            b Tabela de Ficheiros
+          table.w3-table(id='table')
+      footer.w3-container.w3-light-grey.w3-text-grey
+        address Gerado por AjaxUploadFilesApp
+

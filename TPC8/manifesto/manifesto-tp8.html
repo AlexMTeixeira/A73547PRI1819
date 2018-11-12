@@ -1,0 +1,91 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+                    table {
+                        width: 100%;
+                    }
+                    td {
+                        width: 50%;
+                    }
+                    .col {
+                        column-count: 2;
+                    }
+                </style></head>
+   <body>
+      <h1 align="center">Manifesto</h1>
+      <hr>
+      
+      <div class="col">
+         <b>Identificador: </b>PRI1819_MIEI_TPC8<br>
+         <b>Título: </b>Aplicação de Submição de Ficheiros Com AJAX<br>
+         <b>Subtítulo: </b>Relatório relativo ao oitavo trabalho de casa da cadeira de PRI<br>
+         <b>Data de Início: </b>9 Novembro 2018<br>
+         <b>Data de Conclusão: </b>12 Novembro 2018<br>
+         <b>Supervisor: </b><a href="http://www.di.uminho.pt/~jcr/">José Carlos Ramalho</a> : <a href="mailto:jcr@di.uminho.pt">✉</a><br>
+         
+      </div>
+      <hr>
+      
+      <hr>
+      <h3>Equipe:</h3>
+      <table>
+         <ul>
+            
+            <tr>
+               <td>
+                  <li><a href="https://www.facebook.com/alexandremorangoteixeira">Alexandre Teixeira</a> (a73547) : 
+                     <a href="mailto:a73547@alunos.uminho.pt">✉</a></li>
+               </td>
+            </tr>
+            
+         </ul>
+      </table>
+      <hr>
+      
+      <hr>
+      <h3>Resumo:</h3>
+      
+      <p>
+         Inicialmente, utilizando <b>express generator</b>, foi criada a base da nossa aplicação. Após alterar a porta para 6008, foi necessario
+         reutilizar as views, implementadas no TPC anterior.
+         
+      </p>
+      
+      <p>
+         As grandes alterações nas views foram, a alteração do <i>index.pug</i> de modo a utilizar <b>id</b>, com o suporte do <i>client.js</i>, e a criação 
+         de uma view <i>lista.pug</i> responsavel pela apresentação da tabela de ficheiros inicial.
+         
+      </p>
+      
+      <p>
+         No <i>client.js</i>, com o nome de <i>myUploader.js</i>, foi necessário definir dois parametros em <b>AJAX</b> e duas funções. O primeiro é para atualizar
+         a tabela de ficheiros, quando a pagina é aberta, e a segunda é responsavel por responder
+         ao botão <i>Enviar</i>. As duas funções, estão interligadas ao botão,
+         sendo responsaveis pela atualização da tabela e por enviar a descrição e o ficheiro
+         para o servidor, através de <i>ajaxPost</i> e <i>formPost</i>, respetivamente.
+         
+      </p>
+      
+      <p>
+         Para responder aos pedidos, foram criadas, em <i>index.js</i>, diferentes resposta aos pedidos do cliente. A primeira <b>'/'</b> executa o render do pug <i>index</i>, 
+         de seguida, em <b>'/table'</b>, é atualizada a tabela de ficheiros, encontrada em <i>database.json</i>. Além disso foi necessário, criar dois metodos para <i>post</i>,
+         o <b>'/add'</b> e o <b>'/update'</b>, onde o primeiro é responsavel por adicionar o ficheiro a pasta public e o segundo
+         atualizar a base de dados.
+         
+      </p>
+      
+      <hr>
+      
+      <hr>
+      <h3>Resultados:</h3>
+      <ul>
+         
+         <li><a href="manifesto-tp8.xml">XML com o conteudo do manifesto.</a></li>
+         
+         <li><a href="https://github.com/anguinho/A73547PRI1819">Repositório GIT para os trabalhos de Casa</a></li>
+         
+      </ul>
+      <hr>
+      
+   </body>
+</html>
